@@ -283,7 +283,8 @@ client.on('message', async (msg) => {
     }
 
     if (respuestaFinal) {
-        msg.reply(respuestaFinal);
+        msg.reply(respuestaFinal); 
+        
     }
 });
 
